@@ -1,4 +1,4 @@
-# Atividades emn portugol feitas no VisualG
+# Atividades em portugol feitas no VisualG
 
 ## Exercícios
   Os exercícios serão feitos com as estruturas:
