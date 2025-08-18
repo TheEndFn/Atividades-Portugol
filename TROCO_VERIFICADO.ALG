@@ -1,8 +1,8 @@
 Algoritmo "troco_verificado"
 // 
 //  
-// Descrição   : calcula o troco no processo de pagamento de um produto de uma mercearia.
-// Autor(a)    : Filipe Nóbrega
+// DescriÃ§Ã£o   : calcula o troco no processo de pagamento de um produto de uma mercearia.
+// Autor(a)    : Filipe NÃ³brega
 // Data atual  : 16/08/2025
 Var
 
@@ -19,7 +19,7 @@ Inicio
       escreva("Qual foi o valor dado pelo crinte em dinheiro: ")
       leia(dinCliente)
       
-      valorT <- (precoU * quantidadeC)
+      valorT <- precoU * quantidadeC
       troco <- dinCliente - valorT
       dinFaltando <- valorT - dinCliente
       
@@ -31,7 +31,7 @@ Inicio
          escreval("Troco = R$",troco:3:2," reais." )
       senao
            se dinCliente < valorT entao
-              escreva("Dinheiro insuficiênte! Faltam R$",dinFaltando:3:2," reais para concluir o pagamento.")
+              escreva("Dinheiro insuficiÃªnte! Faltam R$",dinFaltando:3:2," reais para concluir o pagamento.")
            fimse
       fimse
       
@@ -40,4 +40,5 @@ Inicio
       escreval("=========================================")
       
 Fimalgoritmo
+
 fimse
