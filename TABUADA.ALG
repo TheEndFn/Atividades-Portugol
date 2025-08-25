@@ -1,9 +1,9 @@
 Algoritmo "TABUADA"
 // 
 //  
-// Descrição   : Ler um número inteiro N, daí mostrar na tela a tabuada de N para 1 a 10, conforme exemplo.
+// DescriÃ§Ã£o   : Ler um nÃºmero inteiro N, daÃ­ mostrar na tela a tabuada de N para 1 a 10, conforme exemplo.
 
-// Autor(a)    : Filipe Nóbrega
+// Autor(a)    : Filipe NÃ³brega
 // Data atual  : 25/08/2025
 Var
 
