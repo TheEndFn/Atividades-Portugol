@@ -8,4 +8,6 @@
 * Estruturas Repetidas
 * Vetores
 * Matrizes
-  
+
+## Para que servem esses exercícios ?
+  Servem para a fixação e para o aprendizado de estruturas importantes da lógica de programação. 
