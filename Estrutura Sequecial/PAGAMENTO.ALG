@@ -1,8 +1,8 @@
 Algoritmo "Pagamento"
 
-// DescriÁ„o   : Mostra quando o funcion·rio dever· receber por suas horas trabalhadas.
-// Autor(a)    : Filipe NÛbrega
-// Data atual  : 15/08/2025
+// Descri√ß√£o   : Mostra quando o funcion√°rio dever√° receber por suas horas trabalhadas.
+// Autor(a)    : Filipe N√≥brega
+// Data atual  : 15/12/2025
 
 Var
 
@@ -11,7 +11,7 @@ valorH, horaT, salario : real
 
 Inicio
 
-escreva("Informe o nome do funcion·rio: ")
+escreva("Informe o nome do funcion√°rio: ")
 leia(nome)
 escreval("")
 escreva("Informe o valor recebido por hora: ")
@@ -29,4 +29,5 @@ escreval("O pagamento para ", nome, " tem de ser R$ ", salario:5:2)
 
 escreval("")
 escreval("=================================================")
+
 Fimalgoritmo
