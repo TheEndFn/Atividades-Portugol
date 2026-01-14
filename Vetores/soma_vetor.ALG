@@ -12,7 +12,6 @@ vet : vetor [0..9] de real
 soma, media : real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
 soma <- 0
 media <- 0
 
