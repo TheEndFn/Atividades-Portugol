@@ -1,11 +1,11 @@
 Algoritmo "dados_pessoas"
 // 
 //  
-// Descrição   : Guarda o gênero das pessoas e a altura delas em vetores, depois calcula-se e escreve a maior e a menor altura do grupo, a media de altura das mulheres e o número de homens.
-// Autor(a)    : Filipe Nóbrega
+// DescriÃ§Ã£o   : Guarda o gÃªnero das pessoas e a altura delas em vetores, depois calcula-se e escreve a maior e a menor altura do grupo, a media de altura das mulheres e o nÃºmero de homens.
+// Autor(a)    : Filipe NÃ³brega
 // Data atual  : 15/01/2026
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 
 n, i, contMedia, contHomem : inteiro
 genero : vetor [0..99] de caractere
@@ -13,19 +13,19 @@ altura : vetor [0..99] de real
 menorAltura, maiorAltura, soma, media : real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 
-escreval("Digite quantas pessoas serão digitadas: ")
+escreval("Digite quantas pessoas serÃ£o digitadas: ")
 leia(n)
 
 escreval("")
 escreval("============================================")
 escreval("")
 
-para i de 0 ate n-1 faça
-     escreva("Digite a altura da ",i+1,"º pessoa: ")
+para i de 0 ate n-1 faÃ§a
+     escreva("Digite a altura da ",i+1,"Âº pessoa: ")
      leia(altura[i])
-     escreva("Digite o gênero dela (F/M): ")
+     escreva("Digite o gÃªnero dela (F/M): ")
      leia(genero[i])
      escreval("")
      escreval("----------------------------------------")
@@ -34,13 +34,13 @@ fimpara
 
 menorAltura <- altura[0]
 
-para i de 0 ate n-1 faça
+para i de 0 ate n-1 faÃ§a
      se menorAltura > altura[i] entao
         menorAltura <- altura[i]
      fimse
 fimpara
 
-Escreval("A menor altura é: ", menorAltura)
+Escreval("A menor altura Ã©: ", menorAltura)
 
 escreval("")
 escreval("============================================")
@@ -48,13 +48,13 @@ escreval("")
 
 maiorAltura <- altura[0]
 
-para i de 0 ate n-1 faça
+para i de 0 ate n-1 faÃ§a
      se altura[i] > maiorAltura entao
         maiorAltura <- altura[i]
      fimse
 fimpara
 
-Escreval("A maior altura é: ", maiorAltura)
+Escreval("A maior altura Ã©: ", maiorAltura)
 
 escreval("")
 escreval("============================================")
@@ -62,32 +62,30 @@ escreval("")
 
 soma <- 0
 contMedia <- 0
+contHomem <- 0
 
-para i de 0 ate n-1 faça
+para i de 0 ate n-1 faÃ§a
      se genero[i] = "F" entao
         soma <- soma + altura[i]
         contMedia <- contMedia + 1
      fimse
-fimpara
 
-media <- soma / contMedia
-
-escreval("A media da altura das meninas é: ", media)
-
-escreval("")
-escreval("============================================")
-escreval("")
-
-contHomem <- 0
-
-para i de 0 ate n-1 faça
      se genero[i] = "M" entao
         contHomem <- contHomem + 1
      fimse
 fimpara
 
-escreval("O número de homens nesse grupo é de: ", contHomem)
+media <- soma / contMedia
+
+escreval("A media da altura das meninas Ã©: ", media)
 
 escreval("")
 escreval("============================================")
+escreval("")
+
+escreval("O nÃºmero de homens nesse grupo Ã© de: ", contHomem)
+
+escreval("")
+escreval("============================================")
+
 Fimalgoritmo
