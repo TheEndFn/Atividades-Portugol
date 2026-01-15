@@ -1,33 +1,34 @@
 Algoritmo "aprovados"
 // 
 //  
-// DescriÁ„o   : LÍ o nome dos alunos, suas duuas notas e mostra os aprovados.
+// Descri√ß√£o   : L√™ o nome dos alunos, suas duuas notas e mostra os aprovados.
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 15/01/2026
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis 
+// Se√ß√£o de Declara√ß√µes das vari√°veis 
 
 n, i : inteiro
 nome : vetor [0..99] de caractere
 nota1 : vetor [0..99] de real
 nota2 : vetor [0..99] de real
+media : real
 
 Inicio
-// SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
+// Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
 
-escreva("Digite a quantidades de alunos que ser„o digitados: ")
+escreva("Digite a quantidades de alunos que ser√£o digitados: ")
 leia(n)
 
 escreval("")
 escreval("=====================================================")
 escreval("")
 
-para i de 0 ate n-1 faÁa
-     escreva("Digite o nome do ",i+1,"∫ aluno: ")
+para i de 0 ate n-1 fa√ßa
+     escreva("Digite o nome do ",i+1,"¬∫ aluno: ")
      leia(nome[i])
-     escreva("Digite a 1∫ nota: ")
+     escreva("Digite a 1¬∫ nota: ")
      leia(nota1[i])
-     escreva("Digite a 2∫ nota: ")
+     escreva("Digite a 2¬∫ nota: ")
      leia(nota2[i])
      escreval("")
      escreval("--------------------------------------")
@@ -37,12 +38,14 @@ fimpara
 escreval("Lista dos aprovados: ")
 escreval("")
 
-para i de 0 ate n-1 faÁa
-     se ((nota1[i] + nota2[i]) / 2) >= 6 entao
+para i de 0 ate n-1 fa√ßa
+     media <- (nota1[i] + nota2[i]) / 2
+     se media >= 6 entao
         Escreva(nome[i]," | ")
      fimse
 fimpara
 
 escreval("")
 escreval("=====================================================")
+
 Fimalgoritmo
