@@ -22,5 +22,5 @@ int main() {
 
     return 0;
 
-    // O nome também poderia ser atribido na declaração da variável da seguinte forma --> | char nome[50] = "Maria silva"; |
+    // O nome tambÃ©m poderia ser atribido na declaraÃ§Ã£o da variÃ¡vel da seguinte forma --> | char nome[50] = "Maria silva"; |
 }
